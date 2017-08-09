@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="bottom">
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        card_view:cardBackgroundColor="@color/ligh_gray"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardElevation="1dp"
+        android:alpha="0.8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\@"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint= "Usuário"
+                    android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ._-0123456789"
+                    android:layout_margin="10dp"
+                    android:id="@+id/nick"/>
+
+            </LinearLayout>
+
+            <!--<EditText-->
+                <!--android:id="@+id/email"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:hint="Email"-->
+                <!--android:layout_margin="6dp"/>-->
+
+
+            <EditText
+                android:id="@+id/senha"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Senha"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ,./?;:|!@#$%*()-_=+[]{}'0123456789\\"
+                android:inputType="textPassword"
+                android:layout_margin="6dp"/>
+
+            <!--<LinearLayout-->
+                <!--android:orientation="horizontal" android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content" android:layout_margin="6dp">-->
+
+                <!--<CheckBox-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Lembrar senha"-->
+                    <!--android:id="@+id/lembrarSenha"/>-->
+
+            <!--</LinearLayout>-->
+
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Esqueceu sua senha ?"
+                android:textSize="14dp"
+                android:gravity="left"
+                android:textColor="@android:color/white"
+                android:background="@color/colorAccent"
+                android:padding="5dp"
+                android:id="@+id/esqueci_senha_tela_login"/>
+
+            <Button
+                android:id="@+id/btn_logar_tela_login"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Entrar"
+                android:textSize="14dp"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:alpha="0.8"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+</LinearLayout>

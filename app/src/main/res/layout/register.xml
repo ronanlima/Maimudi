@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="16dp"
+    android:gravity="bottom">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        card_view:cardBackgroundColor="@color/ligh_gray"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardElevation="1dp"
+        android:alpha="0.8">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ@._-0123456789"
+                android:layout_margin="10dp"
+                android:id="@+id/email"/>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Senha*"
+                android:inputType="textPassword"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ,./?;:|!@#$%*()-_=+[]{}'0123456789\\"
+                android:layout_margin="10dp"
+                android:id="@+id/senha"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*Mínimo de 6 caracteres"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"/>
+
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Criar conta no MaiMudi"
+                android:layout_gravity="bottom"
+                android:textSize="14dp"
+                android:id="@+id/btn_criar_conta"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:alpha="0.8"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

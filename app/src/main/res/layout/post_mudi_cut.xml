@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_lyric_cut"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ligh_gray">
+
+    <include layout="@layout/toolbar"/>
+
+    <LinearLayout
+        android:id="@+id/ll_action"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal"
+        android:background="@color/colorAccent"
+        android:padding="10dp"
+        android:windowSoftInputMode="adjustResize">
+
+        <TextView
+            android:layout_width="0dp"
+            android:id="@+id/music"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:alpha="0.8"
+            android:gravity="center_vertical"
+            android:textSize="14dp"/>
+
+        <CheckBox
+            android:id="@+id/check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quero escrever!"
+            android:textSize="10dp"
+            android:layout_centerHorizontal="true"
+            android:buttonTint="@color/colorPrimary"
+            android:textColor="@color/colorPrimary"/>
+
+
+     </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="10dp">
+
+       <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/lyric"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textColor="@color/colorPrimaryDark"
+                fontPath="fonts/Roboto-Regular.ttf"
+                tools:ignore="MissingPrefix"
+                android:textSize="14dp"
+                android:inputType="text|textMultiLine"
+                android:textIsSelectable="true"/>
+
+               </LinearLayout>
+
+     </ScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btnCut"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:text="Cortar"
+        android:background="@color/colorAccent"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

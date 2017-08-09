@@ -1,0 +1,121 @@
+<resources>
+
+    <string name="app_name">MaiMudi</string>
+
+    <string name="ref_firebase_users">users</string>
+    <string name="ref_firebase_nickname">nickname</string>
+    <string name="ref_firebase_url_img_profile">profile_img</string>
+    <string name="ref_firebase_url_img_background">background_img</string>
+    <string name="ref_firebase_nome">nome</string>
+    <string name="ref_firebase_email">email</string>
+    <string name="ref_firebase_posts">posts</string>
+    <string name="ref_firebase_comments">comments</string>
+    <string name="ref_firebase_likes">likes</string>
+    <string name="ref_firebase_friends">friends</string>
+    <string name="ref_firebase_charts">charts</string>
+    <string name="ref_firebase_posts_private">posts_private</string>
+    <string name="ref_storage_profile_perfil">profile/perfil.jpg</string>
+    <string name="ref_storage_profile_background">profile/background.jpg</string>
+    <string name="ref_firebase_one_signal_id">one_signal_id</string>
+
+    <string name="msg_alterar_img_fundo">Alterar imagem de fundo</string>
+    <string name="msg_alterar_img_perfil">Alterar imagem do perfil</string>
+    <string name="label_search_music">Busque por artista, álbum ou música</string>
+    <string name="label_no_posts">Nenhum post compartilhado</string>
+    <string name="feeling">%s canta :</string>
+    <string name="like">%s cantando junto</string>
+    <string name="comments_number">%s comentários</string>
+
+    <string name="label_spinner_tela_post">Qual sua ação nesse momento ?</string>
+    <string name="result">%s resultado(s) encontrados na consulta</string>
+    <string name="result_vazio">Nenhum resultado encontrado para a consulta</string>
+    <string name="mudis_music">%s mudis</string>
+
+    <string name="mudis">%s \nmudis</string>
+    <string name="listener">%s \nouvintes</string>
+    <string name="listening">%s \nouvindo</string>
+    <string name="msg_validacao_nome">Nome não pode ser vazio</string>
+    <string name="msg_validacao_nome_usuario">Nome de usuário não pode ser vazio</string>
+    <string name="msg_loading_background_image">Buscando seu plano de fundo...</string>
+    <string name="msg_action_feeling_user">%1$s %2$s</string>
+    <string name="msg_alert_busca">É necessário escrever algo!</string>
+    <string name="msg_falha_seguidores">Falha ao carregar seus seguidores...</string>
+    <string name="label_escrever_cutlyric">Escrever</string>
+    <string name="label_cortar_cutlyric">Cortar</string>
+    <string name="label_selecione_imagem">Selecione uma imagem</string>
+    <string name="label_falha_selecione_imagem">Não pode selecionar a imagem</string>
+    <string name="label_edit_foto_muder">Edite sua foto, Muder!</string>
+    <string name="label_login_succeded">Agora sim! Vamos entrar no MaiMudi</string>
+    <string name="msg_falha_cortar_imagem">Não conseguimos cortar a sua imagem</string>
+    <string name="msg_falha_salvar_usuario">Falha de comunicação com o servidor!</string>
+    <string name="msg_user_duplicado">Usuário %s já existe. Por favor informe outro nome.</string>
+    <string name="label_atualizando">Atualizando dados. Aguarde...</string>
+    <string name="label_atualizando_imagem">Aguarde. Estamos enviando sua imagem...</string>
+    <string name="msg_img_enviada_sucesso">Imagem gravada com sucesso!</string>
+    <string name="msg_falha_enviar_imagem">Houve uma falha ao enviar sua imagem. Tente novamente!</string>
+    <string name="label_env_img_quase_la">Estamos quase lá...</string>
+    <string name="label_env_img_pausado">O envio da sua imagem foi pausado...</string>
+    <string name="label_env_email">Enviando email</string>
+    <string name="label_redef_senha">Redefinindo senha</string>
+    <string name="label_criando_mudi">Criando seu mude</string>
+    <string name="label_login_mudi">Entrando no Maimudi</string>
+    <string name="msg_erro_criar_mudi">Erro ao criar seu muder , tente novamente mais tarde!</string>
+    <string name="label_duvida_email_muder">Seu email do MaiMudi é esse mesmo?</string>
+    <string name="msg_falha_login_facebook">Não conseguimos fazer login no facebook , tente novamente mais tarde!</string>
+    <string name="msg_falha_login_mudi">Não conseguimos fazer login com o seu muder , tente novamente mais tarde!</string>
+    <string name="msg_muder_nao_encontrado">Muder não encontrado! Por favor se cadastre ou coloque outro usuário!</string>
+    <string name="msg_alerta_mus_art_alb">Informe o nome de alguma música/álbum ou artista!</string>
+    <string name="label_efetuando_busca">Efetuando busca...</string>
+    <string name="msg_nenhum_resultado">Nenhum resultado encontrado para \'%s\'.</string>
+    <string name="msg_tempo_busca_excedido">Tempo de busca excedido. Verifique sua conexão com a internet!</string>
+    <string name="label_ouvindo">Ouvindo</string>
+    <string name="label_nenhum_comentario">Nenhum comentário</string>
+    <string name="label_ninguem">Ninguém</string>
+    <string name="label_estilo_musical">Estilo musical</string>
+    <string name="label_pais_origem">Pais de origem</string>
+    <string name="label_artista">Artista</string>
+    <string name="label_decada">Década</string>
+    <string name="msg_comentario_sucesso">Comentário feito com sucesso!</string>
+    <string name="title_settings">Configurações</string>
+    <string name="positive_button_settings">Ativar conexão</string>
+    <string name="negative_button_settings">Cancelar</string>
+    <string name="msg_no_connection">Sem conexão com a internet</string>
+    <string name="label_empty_timeline">Nenhuma publicação</string>
+    <string name="label_empty_friends">Sem relacionamentos no momento</string>
+    <string name="label_empty_find_user">Não encontramos nenhum muder por enquanto</string>
+
+    <!-- Mensagens de erro -->
+    <string name="msg_exception_download_image_profile">Falha ao retomar download da imagem de perfil do usuário \'%1$s\'. Erro = %2$s</string>
+    <string name="msg_falha_download_image_profile">Não foi possível recuperar sua imagem de perfil!</string>
+    <string name="msg_falha_recup_letra_vagalume">Não foi possível obter a letra para esta música. Mas você pode clicar aqui e informar o que quiser :)</string>
+
+    <!-- Nomes dos atributos no firebase -->
+    <string name="timeline_nickname">nickname</string>
+    <string name="timeline_action">action</string>
+    <string name="timeline_feeling">feeling</string>
+    <string name="timeline_lyric">lyric</string>
+    <string name="timeline_timestamp">timestamp</string>
+    <string name="timeline_post_img">post_img</string>
+    <string name="timeline_preview">preview</string>
+    <string name="timeline_user_img">user_img</string>
+    <string name="timeline_user">user</string>
+
+    <string name="comment">comment</string>
+    <string name="comment_nickname">nickname</string>
+    <string name="comment_user_img">user_img</string>
+    <string name="comment_user">user</string>
+    <string name="comment_timestamp">timestamp</string>
+
+    <string name="friends_nickname">nickname</string>
+    <string name="friends_nome">nome</string>
+    <string name="friends_profile_img">profile_img</string>
+    <string name="friends_one_signal">one_signal_id</string>
+    <string name="friends_status">status</string>
+
+    <string name="user_nome">nome</string>
+    <string name="user_nickname">nickname</string>
+    <string name="user_profile_img">profile_img</string>
+    <string name="user_background_img">background_img</string>
+    <string name="ouvir">Ouvir</string>
+
+</resources>

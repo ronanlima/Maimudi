@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/intro4"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Texto descritivo aqui"
+        android:textColor="@android:color/white"
+        android:textSize="40dp"
+        android:padding="40dp"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="bottom"
+        fontPath="fonts/Roboto-Bold.ttf"
+        tools:ignore="MissingPrefix" />
+
+    </FrameLayout>
+
+</LinearLayout>

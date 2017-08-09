@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="bottom">
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        card_view:cardBackgroundColor="@color/ligh_gray"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardElevation="1dp"
+        android:alpha="0.8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/email_esqueci_senha"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Digite seu email para enviarmos uma mensagem para redefinição da senha!"
+                android:textSize="14dp"
+                android:gravity="left"
+                android:textColor="@android:color/white"
+                android:background="@color/colorAccent"
+                android:padding="5dp"/>
+
+            <EditText
+                android:id="@+id/email_recuperacao_senha"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ@._-0123456789"
+                android:layout_margin="6dp"/>
+
+            <Button
+                android:id="@+id/btnFowardEmailRecovery"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Avançar"
+                android:textSize="14dp"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:alpha="0.8"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+</LinearLayout>

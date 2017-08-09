@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="discogs_current_token">dTwQfufbdyCiqPgSrdcKNRNNuTrqQIaJeAowyYZK</string>
+    <string name="discogs_consumer_key">KiFJZwrrQWOJGgVYZkml</string>
+    <string name="api_key_vagalume">8f5825fb66e5c0e59681669668848c1b</string>
+    <string name="firebase_url">https://glaring-inferno-1317.firebaseio.com/</string>
+    <string name="storage_firebase_url">gs://glaring-inferno-1317.appspot.com/</string>
+    <string name="facebook_app_id">1739103799665786</string>
+
+</resources>

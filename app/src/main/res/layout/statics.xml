@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ligh_gray">
+
+    <LinearLayout
+        android:id="@+id/ll_erro_charts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@mipmap/empty_charts"
+            android:layout_marginBottom="20dp"/>
+        <TextView
+            android:id="@+id/msg_alerta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Oops... parece que você ainda não compartilhou nenhuma música!"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:textSize="12sp"
+            android:layout_marginBottom="25dp"
+            android:textColor="@color/colorPrimaryDark"
+            fontPath="fonts/Roboto-Bold.ttf"
+            tools:ignore="MissingPrefix"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_charts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Porcentagem dos seus mudis por categoria - for Discogs"
+            android:padding="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            fontPath="fonts/Roboto-Bold.ttf"
+            tools:ignore="MissingPrefix"/>
+
+        <LinearLayout
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tv_erro_chartRock"
+                android:layout_width="0dp"
+                android:text="Informações indisponíveis"
+                android:textSize="12sp"
+                android:layout_gravity="center_vertical"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:visibility="gone"
+                android:id="@+id/chartRock"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"/>
+
+            <ProgressBar
+                android:layout_gravity="center_vertical"
+                android:id="@+id/loading_chartRock"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tv_erro_chartArtist"
+                android:layout_width="0dp"
+                android:text="Informações indisponíveis"
+                android:textSize="12sp"
+                android:layout_gravity="center_vertical"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:visibility="gone"
+                android:id="@+id/chart_artist"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"/>
+
+            <ProgressBar
+                android:id="@+id/loading_chartArtist"
+                android:layout_gravity="center_vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

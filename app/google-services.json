@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "369999661951",
+    "firebase_url": "https://glaring-inferno-1317.firebaseio.com",
+    "project_id": "glaring-inferno-1317",
+    "storage_bucket": "glaring-inferno-1317.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369999661951:android:ccc507af7110f79a",
+        "android_client_info": {
+          "package_name": "br.com.maimudi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "369999661951-n2t1rhu9pgulevhol5coscdctq44n225.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.maimudi",
+            "certificate_hash": "2213DB53A12990AC4DC1F3C245B480B75395F127"
+          }
+        },
+        {
+          "client_id": "369999661951-5h23fmqm4f1mf1gqp9da1irf78g2g0sa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD79XMu-0ZW7Hywq568AZBMaLWlWMnMXlk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "369999661951-5h23fmqm4f1mf1gqp9da1irf78g2g0sa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
